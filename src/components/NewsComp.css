@@ -1,0 +1,31 @@
+.news_ {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.new {
+  text-align: center;
+}
+.news_first {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+.news_second > img {
+  width: 50%;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news_third {
+  font-size: 18px;
+  font-weight: 390;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid gray;
+}
+.news_third > Link {
+  color: blue;
+  text-decoration: underline;
+}
